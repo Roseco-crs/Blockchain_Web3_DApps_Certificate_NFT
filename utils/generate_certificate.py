@@ -28,7 +28,7 @@ def generate_image_caption(client, prompt):
 
 def main():
     openai_client = load_openai_client()                  # Initialize OpenAI Key
-    prompt = "Simple Nice red certificate with white background and with no image or design",  # Your prompt
+    prompt = "Simple Nice red certificate background template",  # Your prompt
     image_url = generate_image_caption(openai_client, prompt)     # Generate image url
     if image_url:
         print(f"Successfully Generated Image URL: {image_url}")
