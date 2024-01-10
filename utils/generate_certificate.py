@@ -16,7 +16,7 @@ def generate_image_caption(client, prompt):
             model = "dall-e-3",              
             prompt = str(prompt), 
             size = "1024x1024",
-            quality = "hd",                  # quality = "standard"
+            quality = "standard",                  # quality = "hd"
             n = 1,
         )
         image_url = response.data[0].url
@@ -28,7 +28,7 @@ def generate_image_caption(client, prompt):
 
 def main():
     openai_client = load_openai_client()                  # Initialize OpenAI Key
-    prompt = "Certificate with 10 Academy logo, Full Name, Date, Country, and Grade fields",  # Your prompt
+    prompt = "Simple Nice red certificate with white background and with no image or design",  # Your prompt
     image_url = generate_image_caption(openai_client, prompt)     # Generate image url
     if image_url:
         print(f"Successfully Generated Image URL: {image_url}")
