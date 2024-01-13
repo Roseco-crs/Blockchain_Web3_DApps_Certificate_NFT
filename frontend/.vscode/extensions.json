@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "dotenv.dotenv-vscode",
+    "Orta.vscode-jest",
+    ]
+}
+
