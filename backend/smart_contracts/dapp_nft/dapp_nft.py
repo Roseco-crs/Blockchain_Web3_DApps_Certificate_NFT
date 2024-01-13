@@ -1,6 +1,6 @@
 import beaker as bk 
 import pyteal as pt 
-from utils import generate_complete_certificate
+#from utils import generate_complete_certificate
 import os
 
 class MyState:

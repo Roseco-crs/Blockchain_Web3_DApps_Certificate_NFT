@@ -1,18 +1,5 @@
 {
     "name": "dapp_nft",
-    "methods": [
-        {
-            "name": "hello",
-            "args": [
-                {
-                    "type": "string",
-                    "name": "name"
-                }
-            ],
-            "returns": {
-                "type": "string"
-            }
-        }
-    ],
+    "methods": [],
     "networks": {}
 }
